@@ -3,10 +3,10 @@
 Determines if a given data set represents a valid UTF-8 encoding
 """
 
+
 def validUTF8(data):
     """
     Validates UTF-8 encoding.
-
     Args:
         data (list): A dataset represented by a list of integers.
 
@@ -37,4 +37,3 @@ def validUTF8(data):
             byte_count -= 1
 
     return byte_count == 0  # Ensure all characters are fully processed
-
